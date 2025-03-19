@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Service - Car Service Center</title>
+    <link rel="stylesheet" href="assets/css/booking.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Book Your Service</h1>
+        <nav>
+            <ul>
+                <li><a href="services.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="booking-container">
+        <h2>Schedule Your Appointment</h2>
+        <form action="https://formsubmit.co/your-email@example.com" method="POST">
+            <input type="hidden" name="_subject" value="New Car Service Booking">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="Schedule Service">Schedule Service</option>
+                <option value="Maintenance & Repair">Maintenance & Repair</option>
+                <option value="Parts & Accessories">Parts & Accessories</option>
+                <option value="Tire Center">Tire Center</option>
+                <option value="Service Specials">Service Specials</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Additional Notes:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit" class="btn">Confirm Booking</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Car Service Center. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
