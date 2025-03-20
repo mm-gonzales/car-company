@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #000, #ff0000);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.8);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff4d4d;
+}
+
+/* Service Specials Section */
+.service-specials-section {
+    padding: 50px 10px;
+    background: linear-gradient(to right, #1e1e1e, #000);
+    text-align: center;
+}
+
+.service-specials-section h2 {
+    font-size: 36px;
+    color: #ff4d4d;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px red;
+}
+
+.service-specials-section p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* Service Specials Cards */
+.service-specials-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-special-card {
+    background: #1e1e1e;
+    color: #fff;
+    width: 320px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(255, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-special-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.service-special-card h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #ff4d4d;
+}
+
+.service-special-card p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.service-special-card .btn {
+    background: linear-gradient(to right, #ff4d4d, #ff0000);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.service-special-card .btn:hover {
+    background: white;
+    color: red;
+}
+
+.service-special-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 35px rgba(255, 0, 0, 0.7);
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -5px 15px rgba(255, 0, 0, 0.5);
+}
